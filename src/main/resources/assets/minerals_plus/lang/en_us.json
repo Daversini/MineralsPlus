@@ -1,0 +1,25 @@
+{
+  "itemGroup.mineralsPlusBlocks": "Building Blocks",
+  "itemGroup.mineralsPlusMiscellaneous": "Miscellaneous",
+  "itemGroup.mineralsPlusTools": "Tools",
+  "itemGroup.mineralsPlusCombat": "Combat",
+  "itemGroup.mineralsPlusFoodstuffs": "Foodstuffs",
+
+  "item.minerals_plus.ruby": "Ruby",
+
+  "item.minerals_plus.banana": "Banana",
+
+  "block.minerals_plus.ruby_block": "Ruby block",
+  "block.minerals_plus.ruby_ore": "Ruby Ore",
+
+  "item.minerals_plus.ruby_sword": "Ruby sword",
+  "item.minerals_plus.ruby_shovel": "Ruby shovel",
+  "item.minerals_plus.ruby_pickaxe": "Ruby pickaxe",
+  "item.minerals_plus.ruby_axe": "Ruby axe",
+  "item.minerals_plus.ruby_hoe": "Ruby hoe",
+
+  "item.minerals_plus.ruby_helmet": "Ruby helmet",
+  "item.minerals_plus.ruby_chestplate": "Ruby chestplate",
+  "item.minerals_plus.ruby_leggings": "Ruby leggings",
+  "item.minerals_plus.ruby_boots": "Ruby boots"
+}

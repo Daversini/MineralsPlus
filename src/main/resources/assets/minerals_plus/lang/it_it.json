@@ -1,0 +1,25 @@
+{
+  "itemGroup.mineralsPlusBlocks": "Blocchi da costruzione",
+  "itemGroup.mineralsPlusMiscellaneous": "Varie",
+  "itemGroup.mineralsPlusTools": "Attrezzi",
+  "itemGroup.mineralsPlusCombat": "Combattimento",
+  "itemGroup.mineralsPlusFoodstuffs": "Cibarie",
+
+  "item.minerals_plus.ruby": "Rubino",
+
+  "item.minerals_plus.banana": "Banana",
+
+  "block.minerals_plus.ruby_block": "Blocco di rubino",
+  "block.minerals_plus.ruby_ore": "Rubino grezzo",
+
+  "item.minerals_plus.ruby_sword": "Spada di rubino",
+  "item.minerals_plus.ruby_shovel": "Pala di rubino",
+  "item.minerals_plus.ruby_pickaxe": "Piccone di rubino",
+  "item.minerals_plus.ruby_axe": "Ascia di rubino",
+  "item.minerals_plus.ruby_hoe": "Zappa di rubino",
+
+  "item.minerals_plus.ruby_helmet": "Elmo di rubino",
+  "item.minerals_plus.ruby_chestplate": "Corazza di rubino",
+  "item.minerals_plus.ruby_leggings": "Gambiere di rubino",
+  "item.minerals_plus.ruby_boots": "Stivali di rubino"
+}

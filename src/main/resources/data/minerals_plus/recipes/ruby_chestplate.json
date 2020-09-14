@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "r r",
+    "rrr",
+    "rrr"
+  ],
+  "key":
+  {
+    "r":
+    {
+      "item": "minerals_plus:ruby"
+    }
+  },
+  "result":
+  {
+    "item": "minerals_plus:ruby_chestplate",
+    "count": 1
+  }
+}
