@@ -1,1 +1,1 @@
-MineralsPlus Mod - Forge 1.16.1
+MineralsPlus - Forge 1.16.1
