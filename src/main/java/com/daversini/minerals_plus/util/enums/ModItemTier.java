@@ -1,6 +1,6 @@
-package com.daversini.minerals_plus.tools;
+package com.daversini.minerals_plus.util.enums;
 
-import com.daversini.minerals_plus.util.RegistryHandler;
+import com.daversini.minerals_plus.init.ModItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     RUBY(3, 800, 7.0f, 3.0f, 12, () -> {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(ModItems.RUBY_SWORD.get());
     });
 
     private final int harvestLevel;

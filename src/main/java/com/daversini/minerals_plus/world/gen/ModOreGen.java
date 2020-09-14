@@ -1,7 +1,8 @@
 package com.daversini.minerals_plus.world.gen;
 
 import com.daversini.minerals_plus.MineralsPlus;
-import com.daversini.minerals_plus.util.RegistryHandler;
+import com.daversini.minerals_plus.init.ModBlocks;
+import com.daversini.minerals_plus.init.ModItems;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.pattern.BlockMatcher;
@@ -41,7 +42,7 @@ public class ModOreGen {
                 //World Generation
             } else {
                 genOre(biome, 10, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, //Rarity: 10, Lowest Y value: 8, Highest Y value: 45 (50 - 5)
-                        RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);   //Ore generated: RUBY_ORE, Max Vein: 6
+                        ModBlocks.RUBY_ORE.get().getDefaultState(), 6);   //Ore generated: RUBY_ORE, Max Vein: 6
             }
         }
     }

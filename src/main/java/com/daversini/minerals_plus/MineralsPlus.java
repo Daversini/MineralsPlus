@@ -1,6 +1,7 @@
 package com.daversini.minerals_plus;
 
-import com.daversini.minerals_plus.util.RegistryHandler;
+import com.daversini.minerals_plus.init.ModBlocks;
+import com.daversini.minerals_plus.init.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,7 +22,8 @@ public class MineralsPlus
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
+        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -36,35 +38,35 @@ public class MineralsPlus
     public static final ItemGroup TAB_BLOCKS = new ItemGroup("mineralsPlusBlocks") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY_BLOCK.get());
+            return new ItemStack(ModBlocks.RUBY_BLOCK.get());
         }
     };
 
     public static final ItemGroup TAB_MISCELLANEOUS = new ItemGroup("mineralsPlusMiscellaneous") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY.get());
+            return new ItemStack(ModItems.RUBY.get());
         }
     };
 
     public static final ItemGroup TAB_TOOLS = new ItemGroup("mineralsPlusTools") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY_PICKAXE.get());
+            return new ItemStack(ModItems.RUBY_PICKAXE.get());
         }
     };
 
     public static final ItemGroup TAB_COMBAT = new ItemGroup("mineralsPlusCombat") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY_SWORD.get());
+            return new ItemStack(ModItems.RUBY_SWORD.get());
         }
     };
 
     public static final ItemGroup TAB_FOODSTUFFS = new ItemGroup("mineralsPlusFoodstuffs") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.BANANA.get());
+            return new ItemStack(ModItems.BANANA.get());
         }
     };
 }

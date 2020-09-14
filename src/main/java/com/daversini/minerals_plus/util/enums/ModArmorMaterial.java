@@ -1,7 +1,7 @@
-package com.daversini.minerals_plus.armor;
+package com.daversini.minerals_plus.util.enums;
 
 import com.daversini.minerals_plus.MineralsPlus;
-import com.daversini.minerals_plus.util.RegistryHandler;
+import com.daversini.minerals_plus.init.ModItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
 
     RUBY(MineralsPlus.MOD_ID + ":ruby_armor", 25, new int[] { 2, 5, 6, 2}, 18,    //Durability ruby armor: 275 (11 * 25), Armor protection: (boots: 1, leggings 2.5, chestplate: 3, helmet: 1)
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.fromItems(RegistryHandler.RUBY.get());}, 0); //Toughness amplifier: 0 (none), Repair material: RUBY, Knockback resistance: 0 (none)
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, () -> { return Ingredient.fromItems(ModItems.RUBY.get());}, 0); //Toughness amplifier: 0 (none), Repair material: RUBY, Knockback resistance: 0 (none)
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13}; //Damage armor multiplier (helmet, chestplate, leggins, boots)
     private final String name;
@@ -76,7 +76,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     }
 
     @Override
-    public float func_230304_f_() {
+    public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
 }
