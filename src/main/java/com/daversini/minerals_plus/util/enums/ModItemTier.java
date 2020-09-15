@@ -2,14 +2,19 @@ package com.daversini.minerals_plus.util.enums;
 
 import com.daversini.minerals_plus.init.ModItems;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    RUBY(3, 800, 7.0f, 3.0f, 12, () -> {
-        return Ingredient.fromItems(ModItems.RUBY_SWORD.get());
+    RUBY(3, 800, 10.0f, 3.5f, 10, () -> {
+        return Ingredient.fromItems(ModItems.RUBY.get());
+    }),
+
+    EMERALD(3, 600, 12.0f, 3.0f, 13, () -> {
+        return Ingredient.fromItems(Items.EMERALD);
     });
 
     private final int harvestLevel;

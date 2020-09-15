@@ -17,9 +17,18 @@
   "item.minerals_plus.ruby_pickaxe": "Piccone di rubino",
   "item.minerals_plus.ruby_axe": "Ascia di rubino",
   "item.minerals_plus.ruby_hoe": "Zappa di rubino",
+  "item.minerals_plus.emerald_sword": "Spada di smeraldo",
+  "item.minerals_plus.emerald_shovel": "Pala di smeraldo",
+  "item.minerals_plus.emerald_pickaxe": "Piccone di smeraldo",
+  "item.minerals_plus.emerald_axe": "Ascia di smeraldo",
+  "item.minerals_plus.emerald_hoe": "Zappa di smeraldo",
 
   "item.minerals_plus.ruby_helmet": "Elmo di rubino",
   "item.minerals_plus.ruby_chestplate": "Corazza di rubino",
   "item.minerals_plus.ruby_leggings": "Gambiere di rubino",
-  "item.minerals_plus.ruby_boots": "Stivali di rubino"
+  "item.minerals_plus.ruby_boots": "Stivali di rubino",
+  "item.minerals_plus.emerald_helmet": "Elmo di smeraldo",
+  "item.minerals_plus.emerald_chestplate": "Corazza di smeraldo",
+  "item.minerals_plus.emerald_leggings": "Gambiere di smeraldo",
+  "item.minerals_plus.emerald_boots": "Stivali di smeraldo"
 }

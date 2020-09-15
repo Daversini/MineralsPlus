@@ -17,9 +17,18 @@
   "item.minerals_plus.ruby_pickaxe": "Ruby pickaxe",
   "item.minerals_plus.ruby_axe": "Ruby axe",
   "item.minerals_plus.ruby_hoe": "Ruby hoe",
+  "item.minerals_plus.emerald_sword": "Emerald sword",
+  "item.minerals_plus.emerald_shovel": "Emerald shovel",
+  "item.minerals_plus.emerald_pickaxe": "Emerald pickaxe",
+  "item.minerals_plus.emerald_axe": "Emerald axe",
+  "item.minerals_plus.emerald_hoe": "Emerald hoe",
 
   "item.minerals_plus.ruby_helmet": "Ruby helmet",
   "item.minerals_plus.ruby_chestplate": "Ruby chestplate",
   "item.minerals_plus.ruby_leggings": "Ruby leggings",
-  "item.minerals_plus.ruby_boots": "Ruby boots"
+  "item.minerals_plus.ruby_boots": "Ruby boots",
+  "item.minerals_plus.emerald_helmet": "Emerald helmet",
+  "item.minerals_plus.emerald_chestplate": "Emerald chestplate",
+  "item.minerals_plus.emerald_leggings": "Emerald leggings",
+  "item.minerals_plus.emerald_boots": "Emerald boots"
 }

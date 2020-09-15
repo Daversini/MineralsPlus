@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " e ",
+    " e ",
+    " s "
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "minecraft:emerald"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "minerals_plus:emerald_sword",
+    "count": 1
+  }
+}

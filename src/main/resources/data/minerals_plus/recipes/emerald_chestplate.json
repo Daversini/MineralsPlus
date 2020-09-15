@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "e e",
+    "eee",
+    "eee"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result":
+  {
+    "item": "minerals_plus:emerald_chestplate",
+    "count": 1
+  }
+}
